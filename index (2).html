@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="重庆钢琴调音,重庆钢琴调律师,合川钢琴调音,云阳钢琴维修,钢琴上门调音">
+<meta name="description" content="陈太友 重庆专业钢琴调律师，15年从业经验，全重庆区县上门钢琴调音、维修、整备，先服务后付费，质保3个月。">
+<title>陈太友 | 重庆专业钢琴调律师_全重庆上门调音维修</title>
+<style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{
+        font-family:"微软雅黑",sans-serif;
+        background:#0b0b0f;
+        color:#e5e5e5;
+        line-height:1.8;
+    }
+    header{
+        background:#111;
+        padding:15px 5%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        position:sticky;
+        top:0;
+        z-index:99;
+        border-bottom:1px solid #222;
+    }
+    .logo{
+        font-size:20px;
+        color:#d4af37;
+        font-weight:bold;
+    }
+    nav a{
+        color:#ccc;
+        text-decoration:none;
+        margin-left:18px;
+    }
+    nav a:hover{color:#d4af37;}
+
+.banner{
+background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(piano-bg.jpg);
+background-size:cover;
+background-position:center;
+text-align:center;
+padding:80px 20px;
+}
+.banner h1{
+font-size:36px;
+color:#d4af37;
+margin-bottom:15px;
+}
+.banner p{
+font-size:17px;
+color:#ddd;
+max-width:700px;
+margin:0 auto 25px;
+}
+.btn{
+display:inline-block;
+background:#d4af37;
+color:#000;
+padding:10px 26px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+border:none;
+cursor:pointer;
+}
+.btn:hover{background:#b99428;}
+
+section{
+max-width:1000px;
+margin:60px auto;
+padding:0 20px;
+}
+.title{
+text-align:center;
+font-size:26px;
+color:#d4af37;
+margin-bottom:35px;
+}
+
+.about-wrap{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+align-items:center;
+}
+.about-img img{
+width:100%;
+border-radius:10px;
+border:2px solid #222;
+background:#1a1a22;
+}
+
+.cert-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+}
+.cert-card{
+background:#15151a;
+padding:20px;
+border-radius:10px;
+text-align:center;
+border:1px solid #222;
+}
+.cert-card img{
+width:100%;
+border-radius:6px;
+margin-bottom:12px;
+background:#1a1a22;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:20px;
+}
+.service-card{
+background:#15151a;
+padding:25px;
+border-radius:10px;
+border:1px solid #222;
+}
+.service-card h4{
+color:#d4af37;
+margin-bottom:10px;
+font-size:18px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:#15151a;
+border:1px solid #222;
+}
+th,td{
+padding:12px;
+text-align:center;
+border:1px solid #222;
+}
+th{
+background:#222;
+color:#d4af37;
+}
+
+/* 客户评价 */
+.review-wrap{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+margin-bottom:40px;
+}
+.review-card{
+background:#15151a;
+padding:25px;
+border-radius:10px;
+border:1px solid #222;
+}
+.review-card .name{
+color:#d4af37;
+font-weight:bold;
+margin-bottom:8px;
+}
+.review-card .text{
+color:#ccc;
+font-size:15px;
+}
+.review-form-box{
+background:#15151a;
+padding:30px;
+border-radius:10px;
+border:1px solid #222;
+max-width:600px;
+margin:0 auto;
+}
+.review-form-box h3{
+color:#d4af37;
+margin-bottom:20px;
+text-align:center;
+}
+
+/* 表单通用 */
+.form-box{
+background:#15151a;
+padding:30px;
+border-radius:10px;
+border:1px solid #222;
+max-width:600px;
+margin:0 auto;
+}
+.form-group{
+margin-bottom:20px;
+}
+.form-group label{
+display:block;
+margin-bottom:8px;
+color:#ddd;
+}
+.form-group input,.form-group select,.form-group textarea{
+width:100%;
+padding:12px;
+background:#222;
+border:1px solid #333;
+border-radius:6px;
+color:#fff;
+outline:none;
+}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{
+border-color:#d4af37;
+}
+
+.contact-box{
+background:#15151a;
+padding:30px;
+border-radius:10px;
+text-align:center;
+border:1px solid #222;
+}
+.contact-box p{
+font-size:18px;
+margin:10px 0;
+}
+
+/* FAQ */
+.faq-box{
+background:#15151a;
+padding:30px;
+border-radius:10px;
+border:1px solid #222;
+}
+.faq-item{
+margin-bottom:15px;
+padding-bottom:15px;
+border-bottom:1px solid #222;
+}
+.faq-item:last-child{border:none;}
+.faq-q{color:#d4af37;font-weight:bold;}
+.faq-a{color:#ccc;margin-top:5px;}
+
+/* 回到顶部 */
+#backTop{
+position:fixed;
+bottom:30px;
+right:20px;
+background:#d4af37;
+color:#000;
+width:45px;
+height:45px;
+border-radius:50%;
+text-align:center;
+line-height:45px;
+font-weight:bold;
+cursor:pointer;
+display:none;
+z-index:999;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#777;
+border-top:1px solid #222;
+margin-top:40px;
+}
+
+/* 手机适配 */
+@media(max-width:768px){
+.about-wrap{grid-template-columns:1fr;}
+.banner h1{font-size:28px;}
+nav a{margin-left:8px;font-size:14px;}
+table{display:block;overflow-x:auto;}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">陈太友 · 钢琴调律师</div>
+<nav>
+<a href="#about">关于我</a>
+<a href="#cert">专业资质</a>
+<a href="#service">服务项目</a>
+<a href="#price">收费标准</a>
+<a href="#review">用户评价</a>
+<a href="#faq">常见问题</a>
+<a href="#reserve">在线预约</a>
+<a href="#contact">联系我</a>
+</nav>
+</header>
+
+<div class="banner">
+<h1>重庆专业钢琴调音 · 15年资深技师</h1>
+<p>国家注册高级调律师｜德国SAUTER首德认证<br>全重庆区县上门服务｜先服务后付费｜质保3个月</p>
+<a href="#reserve" class="btn">立即预约</a>
+</div>
+
+<section id="about">
+<h2 class="title">关于我</h2>
+<div class="about-wrap">
+<div class="about-img">
+<img src="sauter-cert-photo.jpg" alt="陈太友 钢琴调律师">
+</div>
+<div class="about-text">
+<p>陈太友，重庆月光琴行售后技术骨干，国家注册三级高级钢琴调律师，德国SAUTER首德官方认证技师、金斯波格钢琴专业认证技师。</p>
+<p style="margin-top:15px;">从业15年以上，专注立式钢琴、三角钢琴精准调音、机械整理、故障维修、老琴复原、音色手感优化。</p>
+<p style="margin-top:15px;"><strong style="color:#d4af37;">服务优势：</strong></p>
+<p>✅ 全重庆所有区县均可上门<br>✅ 先服务后付费，无隐形消费<br>✅ 专业品牌精调：雅马哈、卡瓦依、首德、金斯波格<br>✅ 培训机构、幼儿园长期合作指定调律师</p>
+</div>
+</div>
+</section>
+
+<section id="cert">
+<h2 class="title">专业资质</h2>
+<div class="cert-grid">
+<div class="cert-card">
+<img src="senior-cert.jpg" alt="高级钢琴调律师证书">
+<p>国家注册三级（高级）钢琴调律师</p>
+</div>
+<div class="cert-card">
+<img src="sauter-cert.jpg" alt="德国首德认证">
+<p>德国SAUTER首德认证技师</p>
+</div>
+<div class="cert-card">
+<img src="kings-cert.jpg" alt="金斯波格认证">
+<p>金斯波格钢琴专业认证技师</p>
+</div>
+</div>
+</section>
+
+<section id="service">
+<h2 class="title">服务项目</h2>
+<div class="service-grid">
+<div class="service-card">
+<h4>钢琴精准调音</h4>
+<p>十二平均律专业调音，家用、考级、演出标准，音准稳定持久。</p>
+</div>
+<div class="service-card">
+<h4>机械故障维修</h4>
+<p>键盘卡键、按键杂音、回弹无力、踏板失灵专业检修。</p>
+</div>
+<div class="service-card">
+<h4>音色手感优化</h4>
+<p>钢琴发闷、偏硬、手感不均精细整理，贴合演奏习惯。</p>
+</div>
+<div class="service-card">
+<h4>新琴老琴整备</h4>
+<p>新琴首次调音、老旧钢琴全面大修整备，恢复最佳状态。</p>
+</div>
+</div>
+</section>
+
+<section id="price">
+<h2 class="title">2026 统一收费标准</h2>
+<table>
+<thead>
+<tr>
+<th>钢琴类型</th>
+<th>使用/保养情况</th>
+<th>收费</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>立式钢琴</td>
+<td>2年内正常调音</td>
+<td>300元</td>
+</tr>
+<tr>
+<td>立式钢琴</td>
+<td>2–5年未调音深度整理</td>
+<td>400元</td>
+</tr>
+<tr>
+<td>立式钢琴</td>
+<td>5年以上久置全面复原</td>
+<td>500元</td>
+</tr>
+<tr>
+<td>三角钢琴</td>
+<td>常规专业调音</td>
+<td>600元起</td>
+</tr>
+<tr>
+<td>单项维修</td>
+<td>按键/踏板小故障</td>
+<td>50元起</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top:15px; color:#ccc; text-align:center;">注：全重庆上门无额外服务费，节假日正常接单，复杂维修现场估价。</p>
+</section>
+
+<section id="review">
+<h2 class="title">用户评价 · 欢迎分享体验</h2>
+<div class="review-wrap">
+<div class="review-card">
+<div class="name">重庆渝中-王女士</div>
+<div class="text">师傅调音非常专业，上门准时，态度亲和，音准恢复很好，全重庆都能上门，以后长期定点找陈师傅。</div>
+</div>
+<div class="review-card">
+<div class="name">重庆合川-李先生</div>
+<div class="text">家里15年老琴修复调音，解决多年按键杂音，收费透明合理，先服务后付费很放心，已推荐亲友。</div>
+</div>
+<div class="review-card">
+<div class="name">重庆云阳-张老师</div>
+<div class="text">培训机构长期合作，资质正规、调音细致，各区县上门及时，质保靠谱，值得长期合作。</div>
+</div>
+</div>
+
+<div class="review-form-box">
+<h3>提交我的服务评价</h3>
+<form action="https://formsubmit.co/1016691386@qq.com" method="POST">
+<input type="hidden" name="_subject" value="新用户评价提交">
+<div class="form-group">
+<label>您的称呼</label>
+<input type="text" name="nickname" placeholder="例如：重庆合川-琴友">
+</div>
+<div class="form-group">
+<label>服务评价内容</label>
+<textarea name="content" rows="4" placeholder="分享您的调音、维修服务体验" required></textarea>
+</div>
+<div class="form-group">
+<label>体验服务</label>
+<select name="service">
+<option value="">请选择服务项目</option>
+<option value="钢琴调音">钢琴调音</option>
+<option value="钢琴维修">钢琴维修</option>
+<option value="整琴整备">整琴整备</option>
+<option value="音色手感优化">音色手感优化</option>
+</select>
+</div>
+<button type="submit" class="btn" style="width:100%;">提交评价</button>
+</form>
+</div>
+</section>
+
+<section id="faq">
+<h2 class="title">常见问题</h2>
+<div class="faq-box">
+<div class="faq-item">
+<div class="faq-q">Q：钢琴一般多久调音一次？</div>
+<div class="faq-a">A：家用建议一年1–2次，考级、经常演奏建议半年一次，新琴建议三个月内首次调音。</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Q：多年没调音的钢琴还能恢复吗？</div>
+<div class="faq-a">A：可以，多年久置钢琴可专业逐步拉音、机械整理，完全恢复音准与手感。</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Q：服务覆盖重庆哪些地方？</div>
+<div class="faq-a">A：渝中、江北、南岸、沙坪坝、九龙坡、北碚、合川、云阳、万州等全重庆各区县均可上门。</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Q：可以开发票、有质保吗？</div>
+<div class="faq-a">A：支持开正规普通发票，调音服务统一质保3个月，有问题随时上门复检。</div>
+</div>
+</div>
+</section>
+
+<section id="reserve">
+<h2 class="title">在线预约上门服务</h2>
+<div class="form-box">
+<form action="https://formsubmit.co/1016691386@qq.com" method="POST">
+<input type="hidden" name="_subject" value="新钢琴服务预约订单">
+<div class="form-group">
+<label>您的姓名</label>
+<input type="text" name="name" placeholder="请输入姓名" required>
+</div>
+<div class="form-group">
+<label>联系电话</label>
+<input type="tel" name="phone" placeholder="请输入手机号" required>
+</div>
+<div class="form-group">
+<label>所在区县</label>
+<input type="text" name="area" placeholder="如：重庆合川/云阳" required>
+</div>
+<div class="form-group">
+<label>钢琴类型</label>
+<select name="piano_type" required>
+<option value="">请选择</option>
+<option value="立式钢琴">立式钢琴</option>
+<option value="三角钢琴">三角钢琴</option>
+</select>
+</div>
+<div class="form-group">
+<label>需要服务</label>
+<select name="service_type" required>
+<option value="">请选择</option>
+<option value="钢琴调音">钢琴调音</option>
+<option value="故障维修">故障维修</option>
+<option value="老琴整备">老琴整备</option>
+<option value="音色手感优化">音色手感优化</option>
+</select>
+</div>
+<div class="form-group">
+<label>预约日期</label>
+<input type="date" name="reserve_time" required>
+</div>
+<div class="form-group">
+<label>备注说明</label>
+<textarea name="remark" rows="3" placeholder="钢琴年限、故障情况等"></textarea>
+</div>
+<button type="submit" class="btn" style="width:100%;">提交预约</button>
+</form>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="title">联系预约</h2>
+<div class="contact-box">
+<p>📞 电话：19922314718</p>
+<p>💬 微信：<span id="wxNum">Cty19922314718</span></p>
+<p>📍 服务：全重庆各区县上门</p>
+<p>✅ 先服务后付费｜质保3个月｜可开发票</p>
+<a href="tel:19922314718" class="btn" style="margin-top:15px;">一键拨号</a>
+<button class="btn" style="margin-top:15px;margin-left:10px;" onclick="copyWx()">复制微信号</button>
+</div>
+</section>
+
+<footer>
+© 2026 陈太友 钢琴调律师 | 重庆月光琴行售后技术服务<br>
+服务范围：重庆渝中 江北 南岸 沙坪坝 合川 云阳 全区县上门调音维修
+</footer>
+
+<div id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</div>
+
+<script>
+// 回到顶部
+window.onscroll = function(){
+    let btn = document.getElementById('backTop');
+    btn.style.display = window.scrollY>300 ? 'block' : 'none';
+}
+// 复制微信
+function copyWx(){
+    let text = document.getElementById('wxNum').innerText;
+    let input = document.createElement('input');
+    input.value = text;
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand('copy');
+    document.body.removeChild(input);
+    alert('微信号已复制，可直接粘贴添加！');
+}
+</script>
+
+</body>
+</html>
